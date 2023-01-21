@@ -8,7 +8,6 @@
 .carousel {
   width: 80%;
   height: 550px;
-  border: 4px solid green;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -19,6 +18,10 @@
 .carousel-control-next,
 .carousel-control-prev {
   display: none !important;
+}
+
+.carousel-inner {
+  border-radius: 8px;
 }
 
 .carousel-img img {
@@ -32,25 +35,19 @@
   width: 50%;
 }
 
-.carousel-caption h5 {
+.carousel-caption h1 {
   font-size: 15px;
-  background: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
   font-weight: 400;
 }
 
-.carousel-caption h3 {
+.carousel-caption h2 {
   font-size: 55px;
-  background: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 .carousel-caption p {
   font-size: 15px;
   font-weight: 400;
-  background: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }

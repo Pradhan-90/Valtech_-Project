@@ -9,7 +9,7 @@ function CountryCard() {
       <Row className="country-card-grid">
         {Records.map((record) => {
           return (
-            <Col className={record.className}>
+            <Col className={record.className} key={record.id}>
               <div
                 className="country-card-row"
                 style={{
@@ -21,8 +21,8 @@ function CountryCard() {
                 }}
               >
                 <div className="country-title">
-                  <h5>{record.country}</h5>
-                  <h3>{record.city}</h3>
+                  <h1>{record.country}</h1>
+                  <h2>{record.city}</h2>
                   <p className="country-detail">{record.details}</p>
                   <a href="#" className="country-detail explore-button">
                     Explore More

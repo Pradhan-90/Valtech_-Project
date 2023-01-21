@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "country": "Italy",
-        "image": "images/venice.jpg",
+        "image": "images/venice.webp",
         "city": "Venice",
         "cols": 2,
         "className": "col-md-6 country-card-row",
@@ -11,7 +11,7 @@
     {
         "id" : 2,
         "country": "Germany",
-        "image": "images/berlin.jpg",
+        "image": "images/berlin.webp",
         "city": "Berlin",
         "cols": 1,
         "className": "col-md-3 country-card-row",
@@ -20,7 +20,7 @@
     {
         "id" : 3,
         "country": "Spain",
-        "image": "images/barcelona.jpg",
+        "image": "images/barcelona.webp",
         "city": "Barcelona",
         "cols": 1,
         "className": "col-md-3 country-card-row",
@@ -29,7 +29,7 @@
     {
         "id" : 4,
         "country": "France",
-        "image": "images/paris.jpg",
+        "image": "images/paris.webp",
         "city": "Paris",
         "cols": 1,
         "className": "col-md-3 country-card-row",
@@ -38,7 +38,7 @@
     {
         "id" : 5,
         "country": "Netherlands",
-        "image": "images/amsterdam.jpg",
+        "image": "images/amsterdam.webp",
         "city": "Amsterdam",
         "cols": 1,
         "className": "col-md-3 country-card-row",
@@ -47,7 +47,7 @@
     {
         "id" : 6,
         "country": "United Kingdom",
-        "image": "images/london.jpg",
+        "image": "images/london.webp",
         "city": "London",
         "cols": 2,
         "className": "col-md-6 country-card-row",
