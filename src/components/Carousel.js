@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-// import { Carousel } from 'antd';
 import "./carousel.css";
 import Carousel from "react-bootstrap/Carousel";
 

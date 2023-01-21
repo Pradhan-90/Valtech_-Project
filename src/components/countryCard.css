@@ -1,11 +1,83 @@
-/* .country-card {
-  display: flex !important;
-} */
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .country-card {
   width: 80%;
   margin: 0 auto !important;
+  margin-top: 15px !important;
 }
 .MuiGridListTileBar-root {
   background: none !important;
+}
+
+.country-card-img {
+  padding: 4px !important;
+  filter: grayscale(60%);
+}
+
+.MuiGridListTile-tile {
+  border-radius: 6px !important;
+  opacity: 0.95;
+}
+
+.MuiGridListTile-tile img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.MuiGridListTileBar-root {
+  top: 50%;
+}
+
+.MuiGridListTileBar-title h5 {
+  font-size: 15px;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  filter: brightness(200%);
+}
+
+.MuiGridListTileBar-subtitle h3 {
+  font-size: 25px;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: brightness(200%);
+}
+
+.container {
+  width: 80% !important;
+  margin: 0 auto !important;
+  margin-top: 30px !important;
+  border: 2px solid red;
+  padding: 0 !important;
+}
+
+.country-card-row {
+  height: 500px;
+  margin-bottom: 1.25rem;
+}
+
+.country-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.country-title h5 {
+  font-size: 15px;
+  font-weight: 400;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.country-title h3 {
+  font-size: 30px;
+  background: #fff;
+  font-weight: 500;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

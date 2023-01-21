@@ -1,37 +1,38 @@
 import React from "react";
 import Records from "../components/records.json";
-import GridList from "@material-ui/core/GridList";
-import GridListTile from "@material-ui/core/GridListTile";
-import GridListTileBar from "@material-ui/core/GridListTileBar";
+// import GridList from "@material-ui/core/GridList";
+// import GridListTile from "@material-ui/core/GridListTile";
+// import GridListTileBar from "@material-ui/core/GridListTileBar";
 import "./countryCard.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 function CountryCard() {
   return (
-    <GridList className="country-card" cellHeight={375} cols={4}>
-      {Records.map((record) => {
-        return (
-          <GridListTile
-            className="country-card-img"
-            cols={record.cols || 1}
-            // key={record.id}
-            // style={{
-            //   backgroundImage: `url(${record.image})`,
-            //   backgroundRepeat: "no-repeat",
-            //   backgroundSize: "contain",
-            //   width: 300,
-            //   height: 300,
-            // }}
-          >
-            <img src={record.image} alt="text" />
-            <GridListTileBar
-              title={record.country}
-              titlePosition="center"
-              subtitle={<span>{record.city}</span>}
-            />
-          </GridListTile>
-        );
-      })}
-    </GridList>
+    <Container className="container">
+      <Row className="country-card-grid">
+        {Records.map((record) => {
+          return (
+            <Col className={record.className}>
+              <div
+                className="country-card-row"
+                style={{
+                  backgroundImage: `url(${record.image})`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  borderRadius: "8px",
+                  display: "flex",
+                }}
+              >
+                <div className="country-title">
+                  <h5>{record.country}</h5>
+                  <h3>{record.city}</h3>
+                </div>
+              </div>
+            </Col>
+          );
+        })}
+      </Row>
+    </Container>
   );
 }
 
