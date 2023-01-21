@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-.country-card {
+/* .country-card {
   width: 80%;
   margin: 0 auto !important;
   margin-top: 15px !important;
@@ -41,7 +41,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: brightness(200%);
-}
+} */
 
 .container {
   width: 80% !important;
@@ -69,15 +69,47 @@
 .country-title h5 {
   font-size: 15px;
   font-weight: 400;
-  background: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 .country-title h3 {
   font-size: 30px;
-  background: #fff;
   font-weight: 500;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
+}
+
+.country-detail {
+  display: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+
+.country-title:hover .country-detail {
+  display: flex;
+  transition-delay: 0.3s;
+  padding: 20px 20px 25px 20px;
+}
+
+.country-title:hover .explore-button {
+  border: 1px solid white;
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.country-title:hover {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0px, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.explore-button:hover {
+  background: white;
+  color: black !important;
+  text-decoration: none;
 }

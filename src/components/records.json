@@ -15,7 +15,7 @@
         "city": "Berlin",
         "cols": 1,
         "className": "col-md-3 country-card-row",
-        "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore reprehenderit"
     },
     {
         "id" : 3,
@@ -24,7 +24,7 @@
         "city": "Barcelona",
         "cols": 1,
         "className": "col-md-3 country-card-row",
-        "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore reprehenderit"
     },
     {
         "id" : 4,
@@ -33,7 +33,7 @@
         "city": "Paris",
         "cols": 1,
         "className": "col-md-3 country-card-row",
-        "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore reprehenderit" 
     },
     {
         "id" : 5,
@@ -42,7 +42,7 @@
         "city": "Amsterdam",
         "cols": 1,
         "className": "col-md-3 country-card-row",
-        "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+        "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore reprehenderit"
     },
     {
         "id" : 6,
