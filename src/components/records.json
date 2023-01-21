@@ -1,0 +1,44 @@
+[
+    {
+        "id" : 1,
+        "country": "Italy",
+        "image": "images/venice.jpg",
+        "city": "Venice",
+        "cols": 2
+    },
+    {
+        "id" : 2,
+        "country": "Germany",
+        "image": "images/berlin.jpg",
+        "city": "Berlin",
+         "cols": 1
+    },
+    {
+        "id" : 3,
+        "country": "Spain",
+        "image": "images/barcelona.jpg",
+        "city": "Barcelona",
+         "cols": 1
+    },
+    {
+        "id" : 4,
+        "country": "France",
+        "image": "images/paris.jpg",
+        "city": "Paris",
+         "cols": 1
+    },
+    {
+        "id" : 5,
+        "country": "Netherlands",
+        "image": "images/amsterdam.jpg",
+        "city": "Amsterdam",
+         "cols": 1
+    },
+    {
+        "id" : 6,
+        "country": "United Kingdom",
+        "image": "images/london.jpg",
+        "city": "London",
+         "cols": 2
+    }
+]

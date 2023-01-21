@@ -1,0 +1,11 @@
+/* .country-card {
+  display: flex !important;
+} */
+
+.country-card {
+  width: 80%;
+  margin: 0 auto !important;
+}
+.MuiGridListTileBar-root {
+  background: none !important;
+}
