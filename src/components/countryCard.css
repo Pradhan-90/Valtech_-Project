@@ -8,7 +8,7 @@
 }
 
 .country-card-row {
-  height: 500px;
+  height: 350px;
   margin-bottom: 1.25rem;
 }
 
@@ -18,6 +18,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 8px;
   background: rgba(0, 0, 0, 0)
     linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%);
 }
@@ -60,6 +61,7 @@
 }
 
 .country-title:hover {
+  filter: none;
   background: rgba(0, 0, 0, 0)
     linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0px, rgba(0, 0, 0, 0.7) 100%);
 }
@@ -68,4 +70,228 @@
   background: white;
   color: black !important;
   text-decoration: none;
+}
+
+/* Media query for 768 */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    --bs-gutter-x: 0.2rem;
+  }
+
+  .col {
+    flex: 0 !important;
+    border: 10px solid transparent;
+  }
+  .country-card-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .country-card-row {
+    height: 215px;
+    width: 163px;
+    margin-bottom: 24px !important;
+  }
+
+  .country-title h1 {
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .country-title {
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%);
+  }
+
+  .country-title h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+  }
+
+  .country-title:hover .country-detail {
+    display: flex;
+    transition-delay: 0.3s;
+    padding: 5px;
+  }
+
+  .country-detail {
+    display: none;
+    font-size: 5px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .country-title:hover .explore-button {
+    border: 1px solid white;
+    font-size: 8px;
+    font-weight: 500;
+    width: 60px !important;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .explore-button:hover {
+    background: white;
+    color: black !important;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 1025px) and (min-width: 769px) {
+  .country-card-row {
+    height: 250px !important;
+    margin-bottom: 1.25rem;
+  }
+  .country-title:hover .country-detail {
+    display: flex;
+    transition-delay: 0.3s;
+    padding: 5px;
+  }
+
+  .country-detail {
+    display: none;
+    font-size: 5px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .country-title:hover .explore-button {
+    border: 1px solid white;
+    font-size: 8px;
+    font-weight: 500;
+    width: 60px !important;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .explore-button:hover {
+    background: white;
+    color: black !important;
+    text-decoration: none;
+  }
+
+  .country-title {
+    width: 100%;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%);
+  }
+}
+
+@media only screen and (max-width: 659px) and (min-width: 584px) {
+  .country-card-row {
+    height: 200px;
+    width: 143px;
+    margin-bottom: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 583px) and (min-width: 554px) {
+  .country-card-row {
+    height: 185px;
+    width: 135px;
+    margin-bottom: 24px !important;
+  }
+}
+@media only screen and (max-width: 553px) and (min-width: 519px) {
+  .country-card-row {
+    height: 175px;
+    width: 125px;
+    margin-bottom: 24px !important;
+  }
+}
+@media only screen and (max-width: 431px) and (min-width: 376px) {
+  .country-card-row {
+    height: 175px;
+    width: 125px;
+    margin-bottom: 24px !important;
+  }
+}
+
+/* Media query for 375 */
+
+@media only screen and (max-width: 375px) {
+  .container {
+    --bs-gutter-x: 0.5rem !important;
+  }
+
+  div.country-card-grid.row {
+    margin: none !important;
+  }
+
+  .col {
+    border: none;
+  }
+  .country-card-row {
+    height: 185px !important;
+    width: 125px !important;
+    margin: 0 11px 11px 5px !important;
+  }
+
+  .country-title {
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%);
+  }
+
+  .country-title h1 {
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .country-title h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .country-title:hover .country-detail {
+    display: flex;
+    transition-delay: 0.3s;
+    padding: 5px;
+  }
+
+  .country-detail {
+    display: none;
+    font-size: 5px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .country-title:hover .explore-button {
+    border: 1px solid white;
+    font-size: 8px;
+    font-weight: 500;
+    width: 60px !important;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .explore-button:hover {
+    background: white;
+    color: black !important;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 325px) and (min-width: 225px) {
+  .country-card-row {
+    height: 185px !important;
+    width: 210px !important;
+    margin-bottom: 5px !important;
+  }
 }

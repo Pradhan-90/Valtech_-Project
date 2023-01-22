@@ -15,6 +15,7 @@ function CountryCard() {
                 style={{
                   backgroundImage: `url(${record.image})`,
                   backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center center",
                   backgroundSize: "cover",
                   borderRadius: "8px",
                   display: "flex",
