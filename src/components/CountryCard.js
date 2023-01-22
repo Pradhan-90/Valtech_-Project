@@ -26,7 +26,7 @@ function CountryCard() {
                   <h2>{record.city}</h2>
                   <p className="country-detail">{record.details}</p>
                   <a href="#" className="country-detail explore-button">
-                    Explore More
+                    {record.buttonName}
                   </a>
                 </div>
               </div>

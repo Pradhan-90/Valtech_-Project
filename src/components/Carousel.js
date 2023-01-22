@@ -3,7 +3,7 @@ import axios from "axios";
 import "./carousel.css";
 import Carousel from "react-bootstrap/Carousel";
 
-function CarouselCard() {
+function CarouselCard(props) {
   const [images, setImages] = useState([]);
   useEffect(() => {
     const apiRoot = "https://pixabay.com";
@@ -24,12 +24,9 @@ function CarouselCard() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h1>FRONT-END</h1>
-              <h2>valtech_</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore
-              </p>
+              <h1>{props.heading}</h1>
+              <h2>{props.title}</h2>
+              <p>{props.text}</p>
             </Carousel.Caption>
           </Carousel.Item>
         ))}

@@ -6,6 +6,7 @@
         "city": "Venice",
         "cols": 2,
         "className": "col-md-6 country-card-row",
+        "buttonName": "Explore More",
         "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
     },
     {
@@ -15,6 +16,7 @@
         "city": "Berlin",
         "cols": 1,
         "className": "col-md-3 country-card-row",
+        "buttonName": "Explore More",
         "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore reprehenderit"
     },
     {
@@ -24,6 +26,7 @@
         "city": "Barcelona",
         "cols": 1,
         "className": "col-md-3 country-card-row",
+        "buttonName": "Explore More",
         "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore reprehenderit"
     },
     {
@@ -33,6 +36,7 @@
         "city": "Paris",
         "cols": 1,
         "className": "col-md-3 country-card-row",
+        "buttonName": "Explore More",
         "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore reprehenderit" 
     },
     {
@@ -42,6 +46,7 @@
         "city": "Amsterdam",
         "cols": 1,
         "className": "col-md-3 country-card-row",
+        "buttonName": "Explore More",
         "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore reprehenderit"
     },
     {
@@ -51,6 +56,7 @@
         "city": "London",
         "cols": 2,
         "className": "col-md-6 country-card-row",
+        "buttonName": "Explore More",
         "details": "lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
     }
 ]
