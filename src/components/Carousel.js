@@ -7,6 +7,7 @@ function CarouselCard(props) {
   const [images, setImages] = useState([]);
   useEffect(() => {
     const apiRoot = "https://pixabay.com";
+    // TODO client Id needs to be in .env file
     axios
       .get(
         `${apiRoot}/api/?key=33003845-738ffc1d3581f30f899f9b938&q=travel+adventure&image_type=photo`
